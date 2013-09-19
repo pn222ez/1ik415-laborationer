@@ -8,48 +8,59 @@
 	</title>
 </head>
 <body>
-	<h1>
-		Kontakt
-	</h1>
-	<p>Kontakta mig</p>
-	<nav>
-		<ul>
-			<li><a href="../index.html">Hem</a></li>
-			<li><a href="laborationer.html">Laborationer</a></li>
-			<li><a href="presentation.html">Presentation</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
-		</ul>
-	</nav>
-	<form id="lab1-9" method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-		<div>
-			<label>Ärende</label>
-			<select name="reason">
-				<option>--Välj--</option>
-				<option>Kolla läget</option>
-				<option>Fråga</option>
-				<option>Kritik</option>
-			</select>
+	<div id="container">
+		<header id="header-container">
+			<h1>
+				Kontakt
+			</h1>
+			<p>Kontakta mig</p>
+		</header>
+		<div class="table-container">
+			<nav id="navigation-container" class="table-cell-container">
+				<ul>
+					<li><a href="../index.html">Hem</a></li>
+					<li><a href="laborationer.html">Laborationer</a></li>
+					<li><a href="presentation.html">Presentation</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</nav>
+			<div id="body-container" class="table-cell-container">
+				<form id="lab1-9" method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+					<div>
+						<label>Ärende</label>
+						<select name="reason">
+							<option>--Välj--</option>
+							<option>Kolla läget</option>
+							<option>Fråga</option>
+							<option>Kritik</option>
+						</select>
+					</div>
+					<div>
+						<label>Rubrik</label>
+						<input type="text" name="subject"></div>
+						<div>
+							<label>Text</label>
+							<textarea name="content"></textarea>
+						</div>
+						<br>
+						<div>
+							<input type="checkbox" name="way-of-contact" value="mail">Kontakta mig via mail<br>
+							<input type="checkbox" name="way-of-contact" value="phone">Kontakta mig via telefon<br>
+						</div>
+						<div>
+							<input type="submit" value="Skicka">
+						</div>
+					</form>
+					<br>
+					<article>
+						Min mail:
+						<address>pn222ez@student.lnu.se</address>
+					</article>
+				</div>
+			</div>
+			<footer>
+				Ansvarig för innehållet är Peter Nilsson, 2013
+			</footer>
 		</div>
-		<div>
-			<label>Rubrik</label>
-			<input type="text" name="subject"></div>
-			<div>
-				<label>Text</label>
-				<textarea name="content"></textarea>
-			</div>
-			<br>
-			<div>
-				<input type="checkbox" name="way-of-contact" value="mail">Kontakta mig via mail<br>
-				<input type="checkbox" name="way-of-contact" value="phone">Kontakta mig via telefon<br>
-			</div>
-			<div>
-				<input type="submit" value="Skicka">
-			</div>
-		</form>
-		<br>
-		<article>
-			Min mail:
-			<address>pn222ez@student.lnu.se</address>
-		</article>
 	</body>
 	</html>

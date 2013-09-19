@@ -1,0 +1,45 @@
+body {
+	display: block;
+	overflow: auto;
+}
+
+#container {
+	width: 1200px;
+	min-height: 960px;
+	align: center;
+	margin: 0 auto;
+	border: 1px solid;
+	
+}
+
+#header-container {
+	border: 1px solid;
+	min-height: 200px;
+}
+
+.table-container {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.table-cell-container {
+	display: table-cell;
+}
+
+#nav-container {
+	border: 1px solid;
+	width: 20%;
+	min-height: 760px;
+}
+
+#body-container {
+	border: 1px solid;
+	width: 80%;
+	height: 660px;
+}
+
+footer {
+	border: 1px solid;
+	height: 100px;
+}
