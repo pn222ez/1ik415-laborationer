@@ -1,6 +1,15 @@
+/*
+	Background main: #F2EFE4
+	Background aside: #CB8C1D
+	Background header, footer: #4C3327
+	Text color header, footer: #FFF
+	Text color main: #000
+*/
+
 body {
 	display: block;
 	overflow: auto;
+	color: #FFF;
 }
 
 #container {
@@ -15,6 +24,7 @@ body {
 #header-container {
 	border: 1px solid;
 	min-height: 200px;
+	background-color: #4C3327;
 }
 
 .table-container {
@@ -27,19 +37,23 @@ body {
 	display: table-cell;
 }
 
-#nav-container {
+#navigation-container {
 	border: 1px solid;
 	width: 20%;
 	min-height: 760px;
+	background-color: #CB8C1D;
 }
 
 #body-container {
-	border: 1px solid;
+	border: 1px solid #FFF;
 	width: 80%;
 	height: 660px;
+	background-color: #F2EFE4;
+	color: #000;
 }
 
 footer {
 	border: 1px solid;
 	height: 100px;
+	background-color: #4C3327;
 }
