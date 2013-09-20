@@ -1,10 +1,10 @@
 /*
-	Background main: #F2EFE4
-	Background navigation, link hover: #CB8C1D
-	Background header, footer, active menu item: #4C3327
-	Text color header, footer: #FFF
-	Text color main: #000
-	Menu background: #F2EFE4
+Background main: #F2EFE4
+Background navigation, link hover, thead: #CB8C1D
+Background header, footer, active menu item: #4C3327
+Text color header, footer: #FFF
+Text color main: #000
+Menu background: #F2EFE4
 */
 
 body {
@@ -14,10 +14,8 @@ body {
 #container {
 	width: 1200px;
 	min-height: 960px;
-	align: center;
 	margin: 0 auto;
 	border: 1px solid;
-	
 }
 
 #header-container {
@@ -66,7 +64,7 @@ nav li:hover {
 	background-color: #4C3327;
 }
 
-.active  {
+.active {
 	background-color: #4C3327;
 }
 
@@ -112,14 +110,14 @@ a:link {
 }
 
 .logo-background {
-	background-image:url('pics/logo.png');
+	background-image: url('pics/logo.png');
 	background-repeat: no-repeat;
 	width: 62px;
 	height: 35px;
 }
 
 .blog-logo-background {
-	background-image:url('pics/blog-logo.png');
+	background-image: url('pics/blog-logo.png');
 	background-repeat: no-repeat;
 	width: 48px;
 	height: 48px;
@@ -133,3 +131,24 @@ a:link {
 	float: right;
 }
 
+table, tr, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #CB8C1D;
+	color: #FFF;
+}
+
+tfoot {
+	background-color: #B9C5D0;
+}
+
+tbody {
+	background-color: #FFF;
+}
+
+.passed {
+	background-color: #A4E670;
+}
