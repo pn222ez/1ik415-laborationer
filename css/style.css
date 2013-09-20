@@ -1,6 +1,6 @@
 /*
 	Background main: #F2EFE4
-	Background navigation: #CB8C1D
+	Background navigation, link hover: #CB8C1D
 	Background header, footer, active menu item: #4C3327
 	Text color header, footer: #FFF
 	Text color main: #000
@@ -68,10 +68,45 @@ nav li:hover {
 	background-color: #4C3327;
 }
 
-.active {
+.active  {
 	background-color: #4C3327;
+}
+
+a:link .active {
+	color: #FFF;
+}
+
+a:hover .active {
+	color: #FFF;
+}
+
+a:visited .active {
+	color: #FFF;
+}
+
+a:active .active {
+	color: #FFF;
 }
 
 #menu-container {
 	width: 80%;
 }
+
+a:active {
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+	background-color: #CB8C1D;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:link {
+	color: #000;
+}
+
+
