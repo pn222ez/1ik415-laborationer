@@ -1,9 +1,10 @@
 /*
 	Background main: #F2EFE4
-	Background aside: #CB8C1D
-	Background header, footer: #4C3327
+	Background navigation: #CB8C1D
+	Background header, footer, active menu item: #4C3327
 	Text color header, footer: #FFF
 	Text color main: #000
+	Menu background: #F2EFE4
 */
 
 body {
@@ -56,4 +57,21 @@ footer {
 	border: 1px solid;
 	height: 100px;
 	background-color: #4C3327;
+}
+
+nav li {
+	list-style: none;
+	background-color: #F2EFE4;
+}
+
+nav li:hover {
+	background-color: #4C3327;
+}
+
+.active {
+	background-color: #4C3327;
+}
+
+#menu-container {
+	width: 80%;
 }
