@@ -8,8 +8,6 @@
 */
 
 body {
-	display: block;
-	overflow: auto;
 	color: #FFF;
 }
 
@@ -109,4 +107,7 @@ a:link {
 	color: #000;
 }
 
+.margin-left {
+	margin: 0 0 0 20px;
+}
 
