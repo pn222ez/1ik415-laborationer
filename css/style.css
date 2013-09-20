@@ -111,3 +111,17 @@ a:link {
 	margin: 0 0 0 20px;
 }
 
+.logo-background {
+	background-image:url('pics/logo.png');
+	background-repeat: no-repeat;
+	width: 62px;
+	height: 35px;
+}
+
+.blog-logo-background {
+	background-image:url('pics/blog-logo.png');
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+}
+
