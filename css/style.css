@@ -125,3 +125,11 @@ a:link {
 	height: 48px;
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
