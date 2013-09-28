@@ -1,6 +1,6 @@
 /*
 Background main: #F2EFE4
-Background navigation, link hover, thead: #CB8C1D
+Background navigation, link hover, thead, input type submit: #CB8C1D
 Background header, footer, active menu item: #4C3327
 Text color header, footer: #FFF
 Text color main: #000
@@ -11,6 +11,7 @@ body {
 	color: #FFF;
 }
 
+img
 #container {
 	width: 1200px;
 	min-height: 960px;
@@ -34,7 +35,6 @@ body {
 }
 
 #navigation-container {
-	
 	width: 20%;
 	min-height: 760px;
 	background-color: #CB8C1D;
@@ -150,4 +150,25 @@ tbody {
 
 .passed {
 	background-color: #A4E670;
+}
+
+.margin-image {
+	margin: 0 1em 1em 1em;
+}
+
+.label-container {
+	width: 6em;
+}
+
+.align-top {
+	vertical-align: top;
+}
+
+select, input, textarea {
+	border: 1px #CB8C1D solid;
+}
+
+input[type=submit] {
+	background-color: #CB8C1D;
+	color: #FFF;
 }

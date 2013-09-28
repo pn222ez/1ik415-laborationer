@@ -32,45 +32,72 @@
 			</nav>
 			<div id="body-container" class="table-cell-container">
 				<div class="margin-left">
+					<h1>Kontakt</h1>
 					<form id="lab1-9" method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-						<div>
-							<label>Ärende</label>
-							<select name="reason">
-								<option>--Välj--</option>
-								<option>Kolla läget</option>
-								<option>Fråga</option>
-								<option>Kritik</option>
-							</select>
+						<div class="table-container">
+							<div class="table-cell-container label-container">
+								<label>Ärende:</label>
+							</div>
+							<div class="table-cell-container">
+								<select name="reason">
+									<option>--Välj--</option>
+									<option>Kolla läget</option>
+									<option>Fråga</option>
+									<option>Kritik</option>
+								</select>
+							</div>
 						</div>
-						<div>
-							<label>Rubrik</label>
-							<input type="text" name="subject"></div>
-							<div>
-								<label>Text</label>
-								<textarea name="content"></textarea>
+						<div class="table-container">
+							<div class="table-cell-container label-container">
+								<label>Rubrik:</label>
 							</div>
-							<br>
-							<div>
-								<input type="checkbox" name="way-of-contact" value="mail">Kontakta mig via mail<br>
-								<input type="checkbox" name="way-of-contact" value="phone">Kontakta mig via telefon<br>
+							<div class="table-cell-container">
+								<input type="text" name="subject">
 							</div>
-							<div>
-								<input type="submit" value="Skicka">
+						</div>
+						<div class="table-container">
+							<div class="table-cell-container label-container align-top">
+								<label>Text:</label>
 							</div>
-						</form>
-						<br>
-						<article>
-							Min mail:
-							<address>pn222ez@student.lnu.se</address>
-						</article>
+							<div class="table-cell-container">
+								<textarea name="content" rows=6 cols=30></textarea>
+							</div>
+						</div>
+					<br>
+					<div class="table-container">
+						<div class="table-cell-container label-container">
+							<label>Kontakta mig via mail</label>
+						</div>
+						<div class="table-cell-container">
+							<input type="checkbox" name="way-of-contact" value="mail">
+						</div>
 					</div>
-				</div>
+					<div class="table-container">
+						<div class="table-cell-container label-container">
+							<label>Kontakta mig via telefon</label>
+						</div>
+						<div class="table-cell-container">
+							<input type="checkbox" name="way-of-contact" value="phone">
+						</div>
+					</div>
+					<br>
+					<div>
+						<input type="submit" value="Skicka">
+					</div>
+				</form>
+				<br>
+				<article>
+					Min mail:
+					<address>pn222ez@student.lnu.se</address>
+				</article>
 			</div>
-			<footer>
-				<div class="margin-left">
-					Ansvarig för innehållet är Peter Nilsson, 2013
-				</div>
-			</footer>
 		</div>
-	</body>
-	</html>
+	</div>
+	<footer>
+		<div class="margin-left">
+			Ansvarig för innehållet är Peter Nilsson, 2013
+		</div>
+	</footer>
+</div>
+</body>
+</html>
