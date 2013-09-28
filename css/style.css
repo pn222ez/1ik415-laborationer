@@ -6,169 +6,188 @@ Text color header, footer: #FFF
 Text color main: #000
 Menu background: #F2EFE4
 */
-
-body {
-	color: #FFF;
-}
-
-img
-#container {
-	width: 1200px;
-	min-height: 960px;
-	margin: 0 auto;
-}
-
-#header-container {
-	border: 1px #4C3327 solid;
-	min-height: 200px;
-	background-color: #4C3327;
-}
-
-.table-container {
-	display: table;
-	width: 100%;
-	height: 100%;
-}
-
-.table-cell-container {
-	display: table-cell;
-}
-
-#navigation-container {
-	width: 20%;
-	min-height: 760px;
-	background-color: #CB8C1D;
-}
-
-#body-container {
+@media screen {
+	body {
+		color: #FFF;
+	}
 	
-	width: 80%;
-	height: 660px;
-	background-color: #F2EFE4;
-	color: #000;
+	#container {
+		width: 1200px;
+		min-height: 960px;
+		margin: 0 auto;
+	}
+	
+	#body-container {
+		
+		width: 80%;
+		height: 660px;
+		background-color: #F2EFE4;
+		color: #000;
+	}
+	
+	#header-container {
+		border: 1px #4C3327 solid;
+		min-height: 200px;
+		background-color: #4C3327;
+	}
+	
+	#navigation-container {
+		width: 20%;
+		min-height: 760px;
+		background-color: #CB8C1D;
+	}
+	
+	.table-container {
+		display: table;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.table-cell-container {
+		display: table-cell;
+	}
+	
+	footer {
+		height: 100px;
+		background-color: #4C3327;
+		padding: 2em 0 0 0;
+	}
+	
+	nav li {
+		list-style: none;
+		background-color: #F2EFE4;
+	}
+	
+	nav li:hover {
+		background-color: #4C3327;
+	}
+	
+	.active {
+		background-color: #4C3327;
+	}
+	
+	a:link .active {
+		color: #FFF;
+	}
+	
+	a:hover .active {
+		color: #FFF;
+	}
+	
+	a:visited .active {
+		color: #FFF;
+	}
+	
+	a:active .active {
+		color: #FFF;
+	}
+	
+	#menu-container {
+		font-size: 2em;
+	}
+	
+	a:active {
+		color: #000;
+	}
+	
+	a:hover {
+		color: #000;
+		background-color: #CB8C1D;
+	}
+	
+	a:visited {
+		color: #000;
+	}
+	
+	a:link {
+		color: #000;
+	}
+	
+	.margin-left {
+		margin: 0 0 0 20px;
+	}
+	
+	.logo-background {
+		background-image: url('pics/logo.png');
+		background-repeat: no-repeat;
+		width: 62px;
+		height: 35px;
+	}
+	
+	.blog-logo-background {
+		background-image: url('pics/blog-logo.png');
+		background-repeat: no-repeat;
+		width: 48px;
+		height: 48px;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	table, tr, td {
+		border: 1px solid #000;
+		border-collapse: collapse;
+	}
+	
+	thead {
+		background-color: #CB8C1D;
+		color: #FFF;
+	}
+	
+	tfoot {
+		background-color: #B9C5D0;
+	}
+	
+	tbody {
+		background-color: #FFF;
+	}
+	
+	.passed {
+		background-color: #A4E670;
+	}
+	
+	.margin-image {
+		margin: 0 1em 1em 1em;
+	}
+	
+	.label-container {
+		width: 6em;
+	}
+	
+	.align-top {
+		vertical-align: top;
+	}
+	
+	select, input, textarea {
+		border: 1px #CB8C1D solid;
+	}
+	
+	input[type=submit] {
+		background-color: #CB8C1D;
+		color: #FFF;
+	}
 }
 
-footer {
-	height: 100px;
-	background-color: #4C3327;
-	padding: 2em 0 0 0;
-}
-
-nav li {
-	list-style: none;
-	background-color: #F2EFE4;
-}
-
-nav li:hover {
-	background-color: #4C3327;
-}
-
-.active {
-	background-color: #4C3327;
-}
-
-a:link .active {
-	color: #FFF;
-}
-
-a:hover .active {
-	color: #FFF;
-}
-
-a:visited .active {
-	color: #FFF;
-}
-
-a:active .active {
-	color: #FFF;
-}
-
-#menu-container {
-	font-size: 2em;
-}
-
-a:active {
-	color: #000;
-}
-
-a:hover {
-	color: #000;
-	background-color: #CB8C1D;
-}
-
-a:visited {
-	color: #000;
-}
-
-a:link {
-	color: #000;
-}
-
-.margin-left {
-	margin: 0 0 0 20px;
-}
-
-.logo-background {
-	background-image: url('pics/logo.png');
-	background-repeat: no-repeat;
-	width: 62px;
-	height: 35px;
-}
-
-.blog-logo-background {
-	background-image: url('pics/blog-logo.png');
-	background-repeat: no-repeat;
-	width: 48px;
-	height: 48px;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
-table, tr, td {
-	border: 1px solid #000;
-	border-collapse: collapse;
-}
-
-thead {
-	background-color: #CB8C1D;
-	color: #FFF;
-}
-
-tfoot {
-	background-color: #B9C5D0;
-}
-
-tbody {
-	background-color: #FFF;
-}
-
-.passed {
-	background-color: #A4E670;
-}
-
-.margin-image {
-	margin: 0 1em 1em 1em;
-}
-
-.label-container {
-	width: 6em;
-}
-
-.align-top {
-	vertical-align: top;
-}
-
-select, input, textarea {
-	border: 1px #CB8C1D solid;
-}
-
-input[type=submit] {
-	background-color: #CB8C1D;
-	color: #FFF;
+@media print {
+	#header-container {
+		display: none;
+	}
+	
+	#navigation-container {
+		display: none;
+	}
+	
+	footer {
+		display: none;
+	}
+	
+	a[href^="http://"]:after {
+	content: " (" attr(href) ")";
+	font-size: 90%;
+	}
 }
