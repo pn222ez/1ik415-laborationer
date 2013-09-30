@@ -171,6 +171,51 @@ Menu background: #F2EFE4
 		background-color: #CB8C1D;
 		color: #FFF;
 	}
+	
+	#home, #labs, #pres, #contact {
+		padding: 0 0 0 26px;
+	}
+	
+	#navigation-container li#home {
+		background-image: url('pics/sprite.png');
+		background-repeat: no-repeat;
+		background-position: 0 -48px;
+	}
+	
+	#navigation-container li#home:hover {
+		background-position: 0 0;
+	}
+	
+	#navigation-container li#labs {
+		background-image: url('pics/sprite.png');
+		background-repeat: no-repeat;
+		background-position: 0 -144px;	
+	}
+	
+	#navigation-container li#labs:hover {
+		background-position: 0 -96px;
+	}
+	
+	#navigation-container li#pres {
+		background-image: url('pics/sprite.png');
+		background-repeat: no-repeat;
+		background-position: 0 -240px;	
+	}
+	
+	#navigation-container li#pres:hover {
+		background-position: 0 -192px;
+	}
+	
+	#navigation-container li#contact {
+		background-image: url('pics/sprite.png');
+		background-repeat: no-repeat;
+		background-position: 0 -336px;	
+	}
+	
+	#navigation-container li#contact:hover {
+		background-position: 0 -288px;
+	}
+	
 }
 
 @media print {
