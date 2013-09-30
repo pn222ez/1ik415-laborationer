@@ -11,6 +11,12 @@ Menu background: #F2EFE4
 		color: #FFF;
 	}
 	
+	footer {
+		height: 100px;
+		background-color: #4C3327;
+		padding: 2em 0 0 0;
+	}
+	
 	#container {
 		width: 1200px;
 		min-height: 960px;
@@ -37,6 +43,10 @@ Menu background: #F2EFE4
 		background-color: #CB8C1D;
 	}
 	
+	#menu-container {
+		font-size: 2em;
+	}
+	
 	.table-container {
 		display: table;
 		width: 100%;
@@ -47,10 +57,36 @@ Menu background: #F2EFE4
 		display: table-cell;
 	}
 	
-	footer {
-		height: 100px;
+	.active {
 		background-color: #4C3327;
-		padding: 2em 0 0 0;
+	}
+	
+	.margin-left {
+		margin: 0 0 0 20px;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	.passed {
+		background-color: #A4E670;
+	}
+	
+	.margin-image {
+		margin: 0 1em 1em 1em;
+	}
+	
+	.label-container {
+		width: 6em;
+	}
+	
+	.align-top {
+		vertical-align: top;
 	}
 	
 	nav li {
@@ -59,10 +95,6 @@ Menu background: #F2EFE4
 	}
 	
 	nav li:hover {
-		background-color: #4C3327;
-	}
-	
-	.active {
 		background-color: #4C3327;
 	}
 	
@@ -82,10 +114,6 @@ Menu background: #F2EFE4
 		color: #FFF;
 	}
 	
-	#menu-container {
-		font-size: 2em;
-	}
-	
 	a:active {
 		color: #000;
 	}
@@ -103,10 +131,6 @@ Menu background: #F2EFE4
 		color: #000;
 	}
 	
-	.margin-left {
-		margin: 0 0 0 20px;
-	}
-	
 	.logo-background {
 		background-image: url('pics/logo.png');
 		background-repeat: no-repeat;
@@ -119,14 +143,6 @@ Menu background: #F2EFE4
 		background-repeat: no-repeat;
 		width: 48px;
 		height: 48px;
-	}
-	
-	.left {
-		float: left;
-	}
-	
-	.right {
-		float: right;
 	}
 	
 	table, tr, td {
@@ -145,22 +161,6 @@ Menu background: #F2EFE4
 	
 	tbody {
 		background-color: #FFF;
-	}
-	
-	.passed {
-		background-color: #A4E670;
-	}
-	
-	.margin-image {
-		margin: 0 1em 1em 1em;
-	}
-	
-	.label-container {
-		width: 6em;
-	}
-	
-	.align-top {
-		vertical-align: top;
 	}
 	
 	select, input, textarea {
@@ -215,7 +215,6 @@ Menu background: #F2EFE4
 	#navigation-container li#contact:hover {
 		background-position: 0 -288px;
 	}
-	
 }
 
 @media print {
