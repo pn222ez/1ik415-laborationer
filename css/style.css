@@ -24,7 +24,6 @@ Menu background: #F2EFE4
 	}
 	
 	#body-container {
-		
 		width: 80%;
 		height: 660px;
 		background-color: #F2EFE4;
@@ -143,6 +142,11 @@ Menu background: #F2EFE4
 		background-repeat: no-repeat;
 		width: 48px;
 		height: 48px;
+	}
+	
+	.blog-logo-background h3 {
+		padding: 0 0 0 48px;
+		width: 300px;
 	}
 	
 	table, tr, td {
