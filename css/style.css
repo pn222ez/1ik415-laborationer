@@ -23,6 +23,16 @@ Menu background: #F2EFE4
 		background-color: #4C3327;
 	}
 	
+	.comments p {
+		font-size: smaller;
+		background-color: #FFF;
+	}
+	
+	.comments {
+		background-color: #FFF;
+		padding: 0 0 0 1em;
+	}
+	
 	.left {
 		float: left;
 	}
