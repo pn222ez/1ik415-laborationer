@@ -7,61 +7,20 @@ Text color main: #000
 Menu background: #F2EFE4
 */
 @media screen {
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section { 
+	 	display: block; 
+	} 
+	
 	body {
 		color: #FFF;
+		margin: 0;
+		padding: 0;
 	}
 	
-	footer {
-		height: 100px;
-		background-color: #4C3327;
-		padding: 2em 0 0 0;
-	}
-	
-	#container {
-		width: 1200px;
-		min-height: 960px;
-		margin: 0 auto;
-	}
-	
-	#body-container {
-		width: 80%;
-		height: 660px;
-		background-color: #F2EFE4;
-		color: #000;
-	}
-	
-	#header-container {
-		border: 1px #4C3327 solid;
-		min-height: 200px;
-		background-color: #4C3327;
-	}
-	
-	#navigation-container {
-		width: 20%;
-		min-height: 760px;
-		background-color: #CB8C1D;
-	}
-	
-	#menu-container {
-		font-size: 2em;
-	}
-	
-	.table-container {
-		display: table;
-		width: 100%;
-		height: 100%;
-	}
-	
-	.table-cell-container {
-		display: table-cell;
-	}
 	
 	.active {
 		background-color: #4C3327;
-	}
-	
-	.margin-left {
-		margin: 0 0 0 20px;
 	}
 	
 	.left {
@@ -78,10 +37,6 @@ Menu background: #F2EFE4
 	
 	.margin-image {
 		margin: 0 1em 1em 1em;
-	}
-	
-	.label-container {
-		width: 6em;
 	}
 	
 	.align-top {
@@ -174,10 +129,6 @@ Menu background: #F2EFE4
 	input[type=submit] {
 		background-color: #CB8C1D;
 		color: #FFF;
-	}
-	
-	#home, #labs, #pres, #contact {
-		padding: 0 0 0 26px;
 	}
 	
 	#navigation-container li#home {
