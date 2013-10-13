@@ -3,10 +3,39 @@
 }
 
 .gallery li {
-	float: right;
+	float: left;
+	text-align: center;
+	margin: 0 2em 0 0;
+}
+
+.gallery img {
+	display: block;
+	border: 2em solid #FFF;
 }
 
 ul.gallery a:after {
 	content: attr(title);
 	background-color: #FFF;
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+ul.gallery li:nth-child(1n) {
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+}
+
+ul.gallery li:nth-child(2n) {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+}
+
+ul.gallery li:nth-child(3n) {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+}
+
+ul.gallery li:nth-child(4n) {
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
 }
