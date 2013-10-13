@@ -47,3 +47,14 @@ ul.gallery li:nth-child(4n) {
 	-webkit-transform: rotate(4deg);
 	-moz-transform: rotate(4deg);
 }
+
+ul.gallery li:hover {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	position: relative;
+	z-index: 5;
+}
+
+
