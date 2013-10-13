@@ -18,6 +18,14 @@ ul.gallery a:after {
 	background-color: #FFF;
 	display: block;
 	margin: 0 0 2em 0;
+	padding: 0 0 1.5em 0;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	
+}
+
+.gallery a:link, .gallery a:hover, .gallery a:visited, .gallery a:link, .gallery a:focus {
+	text-decoration: none;
 }
 
 ul.gallery li:nth-child(1n) {
