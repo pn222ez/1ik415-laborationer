@@ -5,7 +5,10 @@
 .gallery li {
 	float: left;
 	text-align: center;
-	margin: 0 2em 0 0;
+	margin: 0 2em 2em 0;
+	-webkit-transition: -webkit-transform .15s linear;
+	  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
 .gallery img {
@@ -17,7 +20,6 @@ ul.gallery a:after {
 	content: attr(title);
 	background-color: #FFF;
 	display: block;
-	margin: 0 0 2em 0;
 	padding: 0 0 1.5em 0;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 2em;
@@ -56,5 +58,6 @@ ul.gallery li:hover {
 	position: relative;
 	z-index: 5;
 }
+
 
 
