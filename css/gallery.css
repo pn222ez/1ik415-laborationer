@@ -2,3 +2,11 @@
 	list-style: none;
 }
 
+.gallery li {
+	float: right;
+}
+
+ul.gallery a:after {
+	content: attr(title);
+	background-color: #FFF;
+}
