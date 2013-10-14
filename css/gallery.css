@@ -2,13 +2,19 @@
 	list-style: none;
 }
 
-.gallery li {
+.gallery a {
 	float: left;
 	text-align: center;
 	margin: 0 2em 2em 0;
+	background-color: #FFF;
 	-webkit-transition: -webkit-transform .15s linear;
-	  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-	  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-transition: -moz-transform .15s linear;
+	-ms-transition: -ms-transform .15s linear;
+	transition: transform .15s linear;
+	-webkit-box-shadow: 0 4px 7px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 4px 7px rgba(0,0,0,.5);
+	-ms-box-shadow: 0 4px 7px rgba(0,0,0,.5);
+	box-shadow: 0 4px 7px rgba(0,0,0,.5);
 }
 
 .gallery img {
@@ -23,41 +29,69 @@ ul.gallery a:after {
 	padding: 0 0 1.5em 0;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 2em;
-	
 }
 
-.gallery a:link, .gallery a:hover, .gallery a:visited, .gallery a:link, .gallery a:focus {
+.gallery a:link, .gallery a:hover, .gallery a:visited, .gallery a:link {
 	text-decoration: none;
 }
 
-ul.gallery li:nth-child(1n) {
+ul.gallery a {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+ul.gallery li:nth-child(1n) a {
 	-webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
 }
 
-ul.gallery li:nth-child(2n) {
+ul.gallery li:nth-child(2n) a {
 	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
 }
 
-ul.gallery li:nth-child(3n) {
+ul.gallery li:nth-child(3n) a {
 	-webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
-ul.gallery li:nth-child(4n) {
+ul.gallery li:nth-child(4n) a {
 	-webkit-transform: rotate(4deg);
 	-moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
 }
 
-ul.gallery li:hover {
+ul.gallery li a:hover {
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
 	-webkit-transform: scale(1.25);
 	-moz-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	transform: scale(1.25);
 	position: relative;
 	z-index: 5;
 }
 
-
-
+ul.gallery li a:focus {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	transform: scale(1.25);
+	position: relative;
+	z-index: 5;
+}
