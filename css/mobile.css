@@ -91,6 +91,6 @@ input[type=submit] {
 	font-size: 1em;
 }
 
-#home, #labs, #pres, #contact {
+#home, #labs, #pres, #contact, #gallery {
 	text-align: right;
 }
